@@ -9,10 +9,41 @@
     <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
+    <header class="site-header">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col">
+                    <h1 class="align-middle text-center text-lg-left">Aprendiendo HTML5 CSS3 JS BOOTSTRAP 4</h1>
+                    <p class="display-2 text-center text-lg-left">Aprende Bootstrap 4</p>
+                </div>
+            </div>
+        </div>
+    </header>
+    <h2 class="lecture-title">Modals</h2>
+
+    <main class="container">
+        <div class="row">
+            <div class="col-8">
+                <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modal">
+                    Abrir en un modal
+                </a>
+
+                <div id="modal" class="modal fade" tabindex="-1" role="dialog " aria-labelledby="modal" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h2 class="modal-title">Visita Buenos Aires</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
 
 
-    <script src="/js/bootstrap.min.js"></script>
     <script src="/js/jquery.slim.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
     <script src="/js/popper.js"></script>
     
 </body>
